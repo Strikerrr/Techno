@@ -1,0 +1,41 @@
+{
+  "name": "techno",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.3"
+  },
+  "description": "Opensourced discord bot",
+  "main": "main.js",
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "animals-api": "^1.0.3",
+    "common-tags": "^1.7.2",
+    "discord-akairo": "github:1computer1/discord-akairo",
+    "discord.js": "github:discordjs/discord.js",
+    "eslint": "^4.19.1",
+    "kaori": "^1.1.4",
+    "moment": "2.22.1",
+    "moment-duration-format": "2.2.2",
+    "node-superfetch": "^0.1.9",
+    "simple-youtube-api": "5.0.1",
+    "superagent": "3.8.3",
+    "urban.js": "2.4.3",
+    "ytdl-core": "0.20.2",
+    "pm2": "2.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "eslint ./",
+    "start": "pm2 start main.js && pm2 logs all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Strikerrr/Techno.git"
+  },
+  "author": "Striker <zzstrikerzzyt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Strikerrr/Techno/issues"
+  },
+  "homepage": "https://github.com/Strikerrr/Techno#readme"
+}
